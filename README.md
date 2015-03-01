@@ -14,7 +14,7 @@ features :
 
 To build, be sure you have [node](http://nodejs.org) installed. Clone the project:
 
-    git clone https://github.com/melonjs/boilerplate.git
+    git clone https://github.com/melonjs/Savior-or-Sacrifice.git
 
 Then in the cloned directory, simply run:
 
