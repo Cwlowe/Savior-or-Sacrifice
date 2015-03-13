@@ -4,12 +4,17 @@ game.PlayScreen = me.ScreenObject.extend({
      */
     onResetEvent: function() {
         // load a level
-        me.levelDirector.loadLevel("area01");
+        if (tutorial)
+            me.levelDirector.loadLevel("area01");
+        else
+            me.levelDirector.loadLevel("area02");
         //me.levelDirector.loadLevel("area02");
         // play the audio track in game
+
         me.audio.playTrack("Savior-or-Sacrifice-InGame");
         // reset the score
-        game.data.score = 0;
+        game.data.score = 1;
+        game.data.kill = 1;
 
         // add our HUD to the game world
         this.HUD = new game.HUD.Container();

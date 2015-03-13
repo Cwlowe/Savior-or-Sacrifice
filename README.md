@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 melonJS boilerplate
 -------------------------------------------------------------------------------
 
@@ -14,7 +13,7 @@ features :
 
 To build, be sure you have [node](http://nodejs.org) installed. Clone the project:
 
-    git clone https://github.com/melonjs/Savior-or-Sacrifice.git
+    git clone https://github.com/melonjs/boilerplate.git
 
 Then in the cloned directory, simply run:
 
@@ -37,7 +36,3 @@ Note that you may have to edit the file `Gruntfile.js` if you need to better dic
 -------------------------------------------------------------------------------
 Copyright (C) 2011 - 2014 Olivier Biot, Jason Oster, Aaron McLeod
 melonJS is licensed under the [MIT License](http://www.opensource.org/licenses/mit-license.php)
-=======
-# Savior-or-Sacrifice
-CMPM 20 Final game
->>>>>>> 296ade7065bf647a7b61be9738fc2c5daa30aeb9
