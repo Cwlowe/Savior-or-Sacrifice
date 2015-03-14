@@ -482,7 +482,7 @@ game.FallEntity = me.CollectableEntity.extend({
     if(player.alive && response.a.type === 'player'){
       player.alive=false;
       game.data.score = 0;
-      if(game.data.score === -1){
+      if(game.data.score === 0){
         player.renderable.setCurrentAnimation("die", function(){player.renderable.setCurrentAnimation("stayDead",function(){me.state.change(me.state.GAMEOVER)})});
       }else
               player.renderable.setCurrentAnimation("die", function(){player.renderable.setCurrentAnimation("stayDead", function(){me.levelDirector.reloadLevel()})});
